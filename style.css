@@ -1,0 +1,77 @@
+    body {
+    font-family: Arial, sans-serif;
+    background-image: url(./background.jpg);
+    padding: 40px;
+    background-size: cover;
+  }
+
+  .box {
+    width: 350px;
+    padding: 20px;
+    background: #ffffff;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+
+  .input-area {
+    display: flex;
+    gap: 10px;
+  }
+
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #d0d7ff;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+
+  button {
+    padding: 10px 16px;
+    background: #4b74ff;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  button:hover {
+    background: #335dff;
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f7ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .item button {
+    background: #ff4b4b;
+    padding: 6px 10px;
+  }
+
+  .item button:hover {
+    background: #e63b3b;
+  }
+
+  .footer {
+    margin-top: 25px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+
+  .recover-btn {
+    background: #38b000 !important;
+  }
+
+  .recover-btn:hover {
+    background: #2d8c00 !important;
+  }
